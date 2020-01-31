@@ -1,6 +1,6 @@
 ﻿namespace cruetService
 {
-    partial class Service1
+    partial class Cruet
     {
         /// <summary> 
         /// Required designer variable.

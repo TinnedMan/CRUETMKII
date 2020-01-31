@@ -17,7 +17,7 @@ namespace cruetService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new Cruet()
             };
             ServiceBase.Run(ServicesToRun);
         }

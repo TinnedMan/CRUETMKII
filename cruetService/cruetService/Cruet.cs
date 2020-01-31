@@ -8,27 +8,30 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
+using System.Data.SQLite;
 
 namespace cruetService
 {
     
     
-    public partial class Service1 : ServiceBase
+    public partial class Cruet : ServiceBase
     {
         //public Cookie(string name, string value, string domain, string path, DateTime? expiry);
-        //temp class members
-        string CName, CValue, Cdomain, CPath;
 
-        public Service1()
+       
+
+
+        public Cruet()
         {
             InitializeComponent();
         }
 
         protected override void OnStart(string[] args)
         {
-           Cookie MySessionCookie = new Cookie("test","test");
-
-            Console.WriteLine(MySessionCookie.Name);
+            //instantiate the database
+            
+           
+            //
         }
 
         protected override void OnStop()
